@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Login() {
   return (
@@ -117,11 +118,14 @@ function Login() {
           .italianno-regular {
             font-family: "Italianno", cursive;
             font-weight: 400;
-            font-style: normal;
+            font-style: normal;az
           }
 
         `}
       </style>
+      <header>
+      <Link to="/" className="button">Home</Link>
+      </header>
       <div className="logo">
         <img src="ilm.png" alt="" />
       </div>
@@ -141,7 +145,7 @@ function Login() {
             <input type="checkbox" id="remember-me" name="remember-me" />Remember me
           </label><br />
           <button type="submit">Login</button><br />
-          <a href="/forgot.html" style={{ color: ' #332620' }}>Forgot Password?</a><br />
+          <a href="romance" style={{ color: ' #332620' }}>Forgot Password?</a><br />
           <p>Don't have an account?<a href="register" style={{ color: ' #332620' }}>Register</a></p>
         </form>
       </div>
