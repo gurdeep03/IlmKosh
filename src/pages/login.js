@@ -1,5 +1,8 @@
 import React from 'react';
+<<<<<<< HEAD
 import { Link } from 'react-router-dom';
+=======
+>>>>>>> dd1f65f1228e57463de8701e25779c2a5dac6332
 
 function Login() {
   return (
@@ -118,14 +121,21 @@ function Login() {
           .italianno-regular {
             font-family: "Italianno", cursive;
             font-weight: 400;
+<<<<<<< HEAD
             font-style: normal;az
+=======
+            font-style: normal;
+>>>>>>> dd1f65f1228e57463de8701e25779c2a5dac6332
           }
 
         `}
       </style>
+<<<<<<< HEAD
       <header>
       <Link to="/" className="button">Home</Link>
       </header>
+=======
+>>>>>>> dd1f65f1228e57463de8701e25779c2a5dac6332
       <div className="logo">
         <img src="ilm.png" alt="" />
       </div>
@@ -145,7 +155,11 @@ function Login() {
             <input type="checkbox" id="remember-me" name="remember-me" />Remember me
           </label><br />
           <button type="submit">Login</button><br />
+<<<<<<< HEAD
           <a href="romance" style={{ color: ' #332620' }}>Forgot Password?</a><br />
+=======
+          <a href="/forgot.html" style={{ color: ' #332620' }}>Forgot Password?</a><br />
+>>>>>>> dd1f65f1228e57463de8701e25779c2a5dac6332
           <p>Don't have an account?<a href="register" style={{ color: ' #332620' }}>Register</a></p>
         </form>
       </div>
