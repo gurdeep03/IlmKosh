@@ -73,7 +73,7 @@ function Register() {
           margin: 24px;
         }
         .main img {
-          width: 300px;
+          width: 200px;
           height: auto;
           padding: 0px;
           margin-top: 0px;
@@ -81,9 +81,7 @@ function Register() {
         `}
       </style>
 
-      <div className="logo">
-        <img src="ilm.png" alt="" />
-      </div>
+      
 
       <div style={{ textAlign: "center" }}>
         <div style={{ width: "300px", margin: "0 auto", padding: "0px" }}>
