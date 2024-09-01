@@ -32,17 +32,6 @@ const Navbar = () => {
 
   return (
     <Router>
-      <style>{`
-      .bookshelf-dropdown {
-        position: absolute;
-        top: 37%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 10;
-      }
-      
-      
-      `}</style>
       <div className="navbar-container">
         <div className="navbar">
           <div className="cont1">

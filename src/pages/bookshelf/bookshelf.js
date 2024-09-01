@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './bookshelf.css';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
 
 const genres = [
   { name: 'Fiction', color: '#3E2723', urdu: 'افسانہ' },
